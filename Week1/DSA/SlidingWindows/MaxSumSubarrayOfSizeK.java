@@ -1,3 +1,5 @@
+package SlidingWindows;
+
 import java.util.Scanner;
 
 public class MaxSumSubarrayOfSizeK {
