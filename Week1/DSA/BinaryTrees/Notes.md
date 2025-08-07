@@ -38,3 +38,15 @@
 3. Total number of leaf nodes in a binary tree = total number of nodes with 2 children + 1
 4. In a Binary Tree with N nodes, the minimum possible height or the minimum number of levels is Log2(N+1)
 5. A Binary Tree with L leaves has at least | Log2L |+ 1 levels
+
+### Traversal in BTs 
+
+1. Depth-First-Search(DFS) : 
+*     DFS explores as far down a branch as possible before backtracking.
+*     It is implemented using recursion.
+*     The main traversal methods in DFS for binary trees are:
+            InOrder, PreOrder, PostOrder
+Breadth-First-Search(BFS) :
+*     BFS explores all nodes at the present depth before moving on to nodes at the next depth level.
+*     It is typically implemented using a queue.
+*     BFS in a binary tree is commonly referred to as Level Order Traversal.
